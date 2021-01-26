@@ -1,0 +1,23 @@
+{
+  "name": "nodejs-pub-sub-chat-demo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "ssddd",
+  "author": "suraj",
+  "license": "mll",
+  "scripts": {
+    "redis": "node app_redis.js",
+    "sockets": "node app.js"
+  },
+  "dependencies": {
+    "bcrypt-nodejs": "0.0.3",
+    "express": "^4.17.1",
+    "http": "0.0.1-security",
+    "moment": "^2.27.0",
+    "mongoose": "^5.10.3",
+    "pm2": "^4.4.1",
+    "redis": "^2.8.0",
+    "redis.io": "^1.0.0",
+    "socket.io": "^2.0.3"
+  }
+}
